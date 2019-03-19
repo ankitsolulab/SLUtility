@@ -22,15 +22,15 @@ pod 'SLUtility'
 
 ## Features
 
-1. String Functions -  Trim and URL Valication.
+1. String Functions -  Trim and URL validation.
 
 ## Example
 
 ```ruby
 var myString = "This is my car.  "
 let myStringAfterOperation = myString.trim()
-print(myStringAfterOperation)
-//Result - This is my car.
+print(myStringAfterOperation) //This is my car.
+
 ```
 
 
