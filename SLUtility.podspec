@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SLUtility'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SLUtility.'
+  s.summary          = 'SLUtility library is provide a general functions which are you using mostly.'
+  s.swift_version    = '4.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +19,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SLUtility library is provide a general functions which are you using mostly. like trimming, email validation and ImagePicker buttons etc...
                        DESC
 
-  s.homepage         = 'https://github.com/ankitkargathra/SLUtility'
+  s.homepage         = 'https://github.com/ankitsolulab/SLUtility'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ankitkargathra' => 'ankit.kargathra@gmail.com' }
-  s.source           = { :git => 'https://github.com/ankitkargathra/SLUtility.git', :tag => s.version.to_s }
+  s.author           = { 'ankitsolulab' => 'ankit@solulab.com' }
+  s.source           = { :git => 'https://github.com/ankitsolulab/SLUtility.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

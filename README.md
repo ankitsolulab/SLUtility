@@ -1,15 +1,21 @@
 # SLUtility
 
-[![CI Status](https://img.shields.io/travis/ankitkargathra/SLUtility.svg?style=flat)](https://travis-ci.org/ankitkargathra/SLUtility)
+[![CI Status](https://img.shields.io/travis/ankitsolulab/SLUtility.svg?style=flat)](https://travis-ci.org/ankitsolulab/SLUtility)
 [![Version](https://img.shields.io/cocoapods/v/SLUtility.svg?style=flat)](https://cocoapods.org/pods/SLUtility)
 [![License](https://img.shields.io/cocoapods/l/SLUtility.svg?style=flat)](https://cocoapods.org/pods/SLUtility)
 [![Platform](https://img.shields.io/cocoapods/p/SLUtility.svg?style=flat)](https://cocoapods.org/pods/SLUtility)
+
+## Features
+
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 8.0 or later
+Xcode 9.0 or later
 
 ## Installation
 
@@ -22,7 +28,7 @@ pod 'SLUtility'
 
 ## Author
 
-ankitkargathra, ankit.kargathra@gmail.com
+ankitsolulab, ankit@solulab.com
 
 ## License
 

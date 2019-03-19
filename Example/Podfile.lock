@@ -1,0 +1,16 @@
+PODS:
+  - SLUtility (0.1.0)
+
+DEPENDENCIES:
+  - SLUtility (from `../`)
+
+EXTERNAL SOURCES:
+  SLUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLUtility: e4bde5245542b8fbb82b96b0e77e8a1701d9dd84
+
+PODFILE CHECKSUM: 046ba7adeba178ca7ef47ecce5dfe449afbc4260
+
+COCOAPODS: 1.6.0.beta.1

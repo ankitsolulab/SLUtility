@@ -1,0 +1,22 @@
+{
+  "name": "SLUtility",
+  "version": "0.1.0",
+  "summary": "A short description of SLUtility.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ankitkargathra/SLUtility",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ankitkargathra": "ankit.kargathra@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ankitkargathra/SLUtility.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SLUtility/Classes/**/*"
+}
