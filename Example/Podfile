@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SLUtility_Example' do
+  pod 'SLUtility', :path => '../'
+
+  target 'SLUtility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
