@@ -5,17 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/SLUtility.svg?style=flat)](https://cocoapods.org/pods/SLUtility)
 [![Platform](https://img.shields.io/cocoapods/p/SLUtility.svg?style=flat)](https://cocoapods.org/pods/SLUtility)
 
-## Features
-
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
-iOS 8.0 or later
-Xcode 9.0 or later
+1. iOS 8.0 or later
+2. Xcode 9.0 or later
 
 ## Installation
 
@@ -25,6 +19,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SLUtility'
 ```
+
+## Features
+
+1. String Functions -  Trim and URL Valication.
+
+## Example
+
+```ruby
+var myString = "This is my car.  "
+let myStringAfterOperation = myString.trim()
+print(myStringAfterOperation)
+//Result - This is my car.
+```
+
+
 
 ## Author
 
