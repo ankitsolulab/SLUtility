@@ -8,8 +8,8 @@
 
 ## Requirements
 
-1. iOS 8.0 or later
-2. Xcode 9.0 or later
+-  iOS 8.0 or later
+-  Xcode 9.0 or later
 
 ## Installation
 
@@ -23,6 +23,18 @@ pod 'SLUtility'
 ## Features
 
 1. String Functions -  Trim and URL validation.
+
+## CODE - Referance
+
+````ruby
+//Remove white space character and new line character.
+public func trim() -> String
+{
+    var str = self.trimmingCharacters(in: NSCharacterSet.whitespaces)
+    str = str.trimmingCharacters(in: NSCharacterSet.newlines)
+    return str
+}
+````
 
 ## Example
 
