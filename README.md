@@ -22,10 +22,11 @@ pod 'SLUtility'
 
 ## Features
 
-1. String Functions -  Trim and URL validation.
+1. String Extension.
+2. Date Extension.
+3. UIButton Class with UIImagePickerController 
 
 ## CODE - Referance
-
 
 ### SLString.swift - provided methods
 
@@ -40,9 +41,9 @@ pod 'SLUtility'
 
 ### SLImagePickerButton.swift
 
-- This class provide you image from image picker by UIImagePickerViewController .
+- This class provide you image from UIImagePickerViewController .
 
-## Example
+## Example - SLImagePickerButton
 
 ```ruby
 self.buttonImagePicker.pickImageFromPicker(isAllowEditingImage: true) { (imagePickerInfo) in
