@@ -28,7 +28,7 @@ pod 'SLUtility'
 
 ````ruby
 //Remove white space character and new line character.
-public func trim() -> String
+public func removeWhiteSpaceAndNewLine() -> String
 {
     var str = self.trimmingCharacters(in: NSCharacterSet.whitespaces)
     str = str.trimmingCharacters(in: NSCharacterSet.newlines)
@@ -40,7 +40,7 @@ public func trim() -> String
 
 ```ruby
 var myString = "This is my car.  "
-let myStringAfterOperation = myString.trim()
+let myStringAfterOperation = removeWhiteSpaceAndNewLine()
 print(myStringAfterOperation) //This is my car.
 
 ```
