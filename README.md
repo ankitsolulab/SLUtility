@@ -26,26 +26,38 @@ pod 'SLUtility'
 
 ## CODE - Referance
 
+
+### SLString.swift - provided methods
+
 ````ruby
-//Remove white space character and new line character.
-public func removeWhiteSpaceAndNewLine() -> String
-{
-    var str = self.trimmingCharacters(in: NSCharacterSet.whitespaces)
-    str = str.trimmingCharacters(in: NSCharacterSet.newlines)
-    return str
-}
+- func removeWhiteSpaceAndNewLine()
+- func validateStringToURL()
+- func isValidEmail()
 ````
+
+### SLDateTimeAgo.swift
+- This class will provide you date diffrence from any date to current date by x.. seconds, min, hours, days, months, years ago... 
+
+### SLImagePickerButton.swift
+
+- This class provide you image from image picker by UIImagePickerViewController .
 
 ## Example
 
 ```ruby
-var myString = "This is my car.  "
-let myStringAfterOperation = removeWhiteSpaceAndNewLine()
-print(myStringAfterOperation) //This is my car.
+self.buttonImagePicker.pickImageFromPicker(isAllowEditingImage: true) { (imagePickerInfo) in
 
+    guard let info = imagePickerInfo else {
+        // Cancel image picker
+        return
+    }
+
+    // Image selected successfully from image picker.
+    if let image = info[self.buttonImagePicker.imagePicker.allowsEditing ? UIImagePickerController.InfoKey.editedImage : UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        self.buttonImagePicker.setBackgroundImage(image, for: .normal)
+    }
+}
 ```
-
-
 
 ## Author
 

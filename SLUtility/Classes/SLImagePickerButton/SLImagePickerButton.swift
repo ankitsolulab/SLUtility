@@ -5,12 +5,14 @@
 //  Created by Ankit@solulab on 20/03/19.
 //
 
-public typealias ImagePickerResponse = (UIImage) -> ()
+
 
 import UIKit
+import Foundation
 
 public class SLButtonImagePicker: UIButton, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
+    public typealias ImagePickerResponse = ([UIImagePickerController.InfoKey : Any]?) -> ()
     public var imagePicker = UIImagePickerController()
     public let viewController = UIApplication.shared.delegate?.window??.rootViewController
     public var pickedImage: ImagePickerResponse!
@@ -85,12 +87,15 @@ public class SLButtonImagePicker: UIButton, UINavigationControllerDelegate, UIIm
         self.pickedImage = pickedImageCallBack
     }
     
+    //Cancel image picker.
+    public func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.pickedImage(nil)
+        picker.dismiss(animated: true, completion: nil)
+    }
+    
     public func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        
-        guard let image = info[imagePicker.allowsEditing ? UIImagePickerController.InfoKey.editedImage : UIImagePickerController.InfoKey.originalImage] as? UIImage else {
-            return
-        }
-        self.pickedImage(image)
+        // it will provide cropped image original image in the info.
+        self.pickedImage(info)
         picker.dismiss(animated: true, completion: nil)
     }
 }
