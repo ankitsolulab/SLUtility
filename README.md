@@ -20,13 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'SLUtility'
 ```
 
-## Features
+## Feature
 
 1. String Extension.
 2. Date Extension.
 3. UIButton Class with UIImagePickerController 
 
-## CODE - Referance
+## CODE
 
 ### SLString.swift - provided methods
 
