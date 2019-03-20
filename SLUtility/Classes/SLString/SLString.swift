@@ -24,4 +24,8 @@ public extension String {
         }
         return false
     }
+    
+    public func emailValidation() -> Bool {
+        return false
+    }
 }

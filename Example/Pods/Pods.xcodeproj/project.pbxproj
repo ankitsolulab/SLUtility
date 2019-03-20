@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C58C6792241172300924682 /* SLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58C6782241172300924682 /* SLString.swift */; };
-		1C58C67C22411A1400924682 /* SLDateTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58C67B22411A1400924682 /* SLDateTimeAgo.swift */; };
+		30347B2E224200A900A508B7 /* SLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30347B2B224200A900A508B7 /* SLString.swift */; };
+		30347B2F224200A900A508B7 /* SLDateTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30347B2D224200A900A508B7 /* SLDateTimeAgo.swift */; };
 		36E101CD19C8A1A4A1C248E2536EB38D /* SLUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A45669CD3ACC7279C6777983297C2FD5 /* SLUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		586622D44F77F564A1E0479FCAB14336 /* Pods-SLUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A97DEE0870682717D884BA05E5DDB2 /* Pods-SLUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BFA2B40E2E2241FF6D99BC73EADF419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -45,10 +45,10 @@
 		0AE4BF2A2CFB1F708855C0E4CBFBB294 /* Pods-SLUtility_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLUtility_Example-frameworks.sh"; sourceTree = "<group>"; };
 		182E97BE22775762331C634AFB4CA693 /* Pods-SLUtility_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLUtility_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		194E0B5D0FFD9BFF4315494263748703 /* Pods-SLUtility_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLUtility_Example-dummy.m"; sourceTree = "<group>"; };
-		1C58C6782241172300924682 /* SLString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SLString.swift; path = ../SLUtility/Classes/SLString/SLString.swift; sourceTree = "<group>"; };
-		1C58C67B22411A1400924682 /* SLDateTimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SLDateTimeAgo.swift; path = ../SLUtility/Classes/SLDate/SLDateTimeAgo.swift; sourceTree = "<group>"; };
 		1C6CCCC4F4002EC5C5E2C242829F77B3 /* Pods-SLUtility_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLUtility_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30347B2B224200A900A508B7 /* SLString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLString.swift; sourceTree = "<group>"; };
+		30347B2D224200A900A508B7 /* SLDateTimeAgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SLDateTimeAgo.swift; sourceTree = "<group>"; };
 		4205E634A6AAD0D85C3AAA8105A857D5 /* Pods-SLUtility_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLUtility_Example-umbrella.h"; sourceTree = "<group>"; };
 		4DCF1D3CB622EE5587E5FEB623791CE8 /* Pods-SLUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52E02C223C46D78A7C2A5257EFE5DC9E /* Pods-SLUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -101,22 +101,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C58C677224116F400924682 /* SLString */ = {
-			isa = PBXGroup;
-			children = (
-				1C58C6782241172300924682 /* SLString.swift */,
-			);
-			path = SLString;
-			sourceTree = "<group>";
-		};
-		1C58C67A224119DB00924682 /* SLDate */ = {
-			isa = PBXGroup;
-			children = (
-				1C58C67B22411A1400924682 /* SLDateTimeAgo.swift */,
-			);
-			path = SLDate;
-			sourceTree = "<group>";
-		};
 		1F35DC80FEAE11B28108E594C94E7B7A /* Pods-SLUtility_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +125,24 @@
 				7F8C8554A21FA812AE4296556168A5B5 /* Pods-SLUtility_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		30347B2A224200A900A508B7 /* SLString */ = {
+			isa = PBXGroup;
+			children = (
+				30347B2B224200A900A508B7 /* SLString.swift */,
+			);
+			name = SLString;
+			path = SLUtility/Classes/SLString;
+			sourceTree = "<group>";
+		};
+		30347B2C224200A900A508B7 /* SLDate */ = {
+			isa = PBXGroup;
+			children = (
+				30347B2D224200A900A508B7 /* SLDateTimeAgo.swift */,
+			);
+			name = SLDate;
+			path = SLUtility/Classes/SLDate;
 			sourceTree = "<group>";
 		};
 		4725AAEE5B04172E996DCF92DB1F9785 /* Development Pods */ = {
@@ -180,8 +182,8 @@
 		8F78BA10A314B0F7049BA191AED789F6 /* SLUtility */ = {
 			isa = PBXGroup;
 			children = (
-				1C58C67A224119DB00924682 /* SLDate */,
-				1C58C677224116F400924682 /* SLString */,
+				30347B2C224200A900A508B7 /* SLDate */,
+				30347B2A224200A900A508B7 /* SLString */,
 				BE343B37C5F5DA4ECDF0EB6FBE1CFAF1 /* Pod */,
 				E80E6D20B822696DA582C8419EE7E585 /* Support Files */,
 			);
@@ -391,9 +393,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C58C67C22411A1400924682 /* SLDateTimeAgo.swift in Sources */,
+				30347B2F224200A900A508B7 /* SLDateTimeAgo.swift in Sources */,
 				D316585C85E6A63300F4BA1ED9C501C5 /* Pods-SLUtility_Example-dummy.m in Sources */,
-				1C58C6792241172300924682 /* SLString.swift in Sources */,
+				30347B2E224200A900A508B7 /* SLString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
