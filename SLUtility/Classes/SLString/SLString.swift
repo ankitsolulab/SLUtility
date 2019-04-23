@@ -10,7 +10,7 @@ import Foundation
 public extension String {
     
     //Remove white space character and new line character.
-    public func removeWhiteSpaceAndNewLine() -> String
+    func removeWhiteSpaceAndNewLine() -> String
     {
         var str = self.trimmingCharacters(in: NSCharacterSet.whitespaces)
         str = str.trimmingCharacters(in: NSCharacterSet.newlines)
@@ -18,7 +18,7 @@ public extension String {
     }
     
     //Validation of url
-    public func validateStringToURL() -> Bool {
+    func validateStringToURL() -> Bool {
         if let url  = NSURL(string: self) {
             return UIApplication.shared.canOpenURL(url as URL)
         }
@@ -26,7 +26,7 @@ public extension String {
     }
     
     //Validation for email address
-    public func isValidEmail() -> Bool {
+    func isValidEmail() -> Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: self)

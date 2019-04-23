@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0667B522684A26006425D0 /* SLAPIClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0667B422684A26006425D0 /* SLAPIClass.swift */; };
 		1C58C6792241172300924682 /* SLString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58C6782241172300924682 /* SLString.swift */; };
 		1C58C67C22411A1400924682 /* SLDateTimeAgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58C67B22411A1400924682 /* SLDateTimeAgo.swift */; };
 		1C58C691224215C400924682 /* SLImagePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C58C690224215C400924682 /* SLImagePickerButton.swift */; };
+		1C7AEA3E225B221200670FBD /* SLUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AEA3D225B221200670FBD /* SLUIView.swift */; };
+		1C7AEA43225B2F1500670FBD /* SLDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7AEA42225B2F1500670FBD /* SLDevices.swift */; };
 		36E101CD19C8A1A4A1C248E2536EB38D /* SLUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A45669CD3ACC7279C6777983297C2FD5 /* SLUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		586622D44F77F564A1E0479FCAB14336 /* Pods-SLUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A97DEE0870682717D884BA05E5DDB2 /* Pods-SLUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BFA2B40E2E2241FF6D99BC73EADF419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -46,10 +49,13 @@
 		0AE4BF2A2CFB1F708855C0E4CBFBB294 /* Pods-SLUtility_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLUtility_Example-frameworks.sh"; sourceTree = "<group>"; };
 		182E97BE22775762331C634AFB4CA693 /* Pods-SLUtility_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLUtility_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		194E0B5D0FFD9BFF4315494263748703 /* Pods-SLUtility_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLUtility_Example-dummy.m"; sourceTree = "<group>"; };
+		1C0667B422684A26006425D0 /* SLAPIClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLAPIClass.swift; path = ../SLUtility/Classes/SLAPIClass/SLAPIClass.swift; sourceTree = "<group>"; };
 		1C58C6782241172300924682 /* SLString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SLString.swift; path = ../SLUtility/Classes/SLString/SLString.swift; sourceTree = "<group>"; };
 		1C58C67B22411A1400924682 /* SLDateTimeAgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SLDateTimeAgo.swift; path = ../SLUtility/Classes/SLDate/SLDateTimeAgo.swift; sourceTree = "<group>"; };
 		1C58C690224215C400924682 /* SLImagePickerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SLImagePickerButton.swift; path = ../SLUtility/Classes/SLImagePickerButton/SLImagePickerButton.swift; sourceTree = "<group>"; };
 		1C6CCCC4F4002EC5C5E2C242829F77B3 /* Pods-SLUtility_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLUtility_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C7AEA3D225B221200670FBD /* SLUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLUIView.swift; path = ../SLUtility/Classes/SLUIView/SLUIView.swift; sourceTree = "<group>"; };
+		1C7AEA42225B2F1500670FBD /* SLDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SLDevices.swift; path = ../SLUtility/Classes/SLDevice/SLDevices.swift; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4205E634A6AAD0D85C3AAA8105A857D5 /* Pods-SLUtility_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLUtility_Example-umbrella.h"; sourceTree = "<group>"; };
 		4DCF1D3CB622EE5587E5FEB623791CE8 /* Pods-SLUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +109,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0667B322684A0C006425D0 /* SLAPIClass */ = {
+			isa = PBXGroup;
+			children = (
+				1C0667B422684A26006425D0 /* SLAPIClass.swift */,
+			);
+			path = SLAPIClass;
+			sourceTree = "<group>";
+		};
 		1C58C677224116F400924682 /* SLString */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +139,22 @@
 				1C58C690224215C400924682 /* SLImagePickerButton.swift */,
 			);
 			path = SLImagePickerButton;
+			sourceTree = "<group>";
+		};
+		1C7AEA3C225B220000670FBD /* SLUIView */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AEA3D225B221200670FBD /* SLUIView.swift */,
+			);
+			path = SLUIView;
+			sourceTree = "<group>";
+		};
+		1C7AEA41225B2F0900670FBD /* SLDevice */ = {
+			isa = PBXGroup;
+			children = (
+				1C7AEA42225B2F1500670FBD /* SLDevices.swift */,
+			);
+			path = SLDevice;
 			sourceTree = "<group>";
 		};
 		1F35DC80FEAE11B28108E594C94E7B7A /* Pods-SLUtility_Example */ = {
@@ -190,6 +220,9 @@
 		8F78BA10A314B0F7049BA191AED789F6 /* SLUtility */ = {
 			isa = PBXGroup;
 			children = (
+				1C0667B322684A0C006425D0 /* SLAPIClass */,
+				1C7AEA41225B2F0900670FBD /* SLDevice */,
+				1C7AEA3C225B220000670FBD /* SLUIView */,
 				1C58C68F2242151200924682 /* SLImagePickerButton */,
 				1C58C67A224119DB00924682 /* SLDate */,
 				1C58C677224116F400924682 /* SLString */,
@@ -344,7 +377,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					200C761DAC9581C302F06AE2528EA9B7 = {
 						LastSwiftMigration = 1010;
@@ -359,6 +392,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -402,9 +436,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7AEA3E225B221200670FBD /* SLUIView.swift in Sources */,
 				1C58C691224215C400924682 /* SLImagePickerButton.swift in Sources */,
 				1C58C67C22411A1400924682 /* SLDateTimeAgo.swift in Sources */,
+				1C0667B522684A26006425D0 /* SLAPIClass.swift in Sources */,
 				D316585C85E6A63300F4BA1ED9C501C5 /* Pods-SLUtility_Example-dummy.m in Sources */,
+				1C7AEA43225B2F1500670FBD /* SLDevices.swift in Sources */,
 				1C58C6792241172300924682 /* SLString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -633,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -682,6 +720,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -728,7 +767,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
