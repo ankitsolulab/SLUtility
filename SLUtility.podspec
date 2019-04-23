@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLUtility'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'SLUtility library is provide a general functions which are you using mostly.'
   s.swift_version    = '4.0'
 
